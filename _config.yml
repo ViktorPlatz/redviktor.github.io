@@ -10,12 +10,12 @@ relative_permalinks: false
 title:            Viktor Platz
 tagline:          'Personal Website'
 description:      'Welcome to my personal website.'
-url:              http://hyde.getpoole.com
+url:              https://redviktor.github.io/
 baseurl:          /
 
 author:
   name:           'Viktor Platz'
-  url:            https://twitter.com/mdo
+  url:            https://twitter.com/Redviktor10
 
 paginate:         5
 
