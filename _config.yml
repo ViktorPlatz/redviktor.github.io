@@ -8,13 +8,13 @@ relative_permalinks: false
 
 # Setup
 title:            Viktor Platz
-tagline:          'A Jekyll theme'
+tagline:          'Personal Website'
 description:      'Welcome to my personal website.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
+  name:           'Viktor Platz'
   url:            https://twitter.com/mdo
 
 paginate:         5
