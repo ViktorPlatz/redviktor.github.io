@@ -8,7 +8,7 @@ title: Latest posts
 <ul>
   {% for post in site.posts %}
     <li>
-      fontsize:40px;
+      <fontsize:10vw;>
       <a href="{{ post.url }}">
         {{ post.title }}
       </a>
