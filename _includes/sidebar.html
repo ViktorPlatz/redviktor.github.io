@@ -12,11 +12,14 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/" | relative_url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/about.html" | relative_url }}">About</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/posts.html" | relative_url }}">Posts</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ "/contactme.htmml" | relative_url }}">Contact me</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
+      
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -26,7 +29,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
+      {% endcomment %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
