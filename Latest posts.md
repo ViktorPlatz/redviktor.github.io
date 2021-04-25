@@ -7,7 +7,7 @@ title: Latest posts
 
 
 
-<ul>
+<ul style="list-style-type:none">
   {% for post in site.posts %}
     <li style="font-size:10uw">
       <a href="{{ post.url }}">
