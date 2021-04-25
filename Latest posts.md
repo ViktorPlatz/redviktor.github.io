@@ -5,14 +5,13 @@ title: Latest posts
 
 <hr>
 
-{% if node.layout == "post" %}
-  <article>
-    <h2>
-      <a href="{{ page.url }}">
-        {{ node.title }}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.title }}
       </a>
-    </h2>
-    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>
-    {{ page.content }}
-  </article>
-{% endif %}
+      - <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+    </li>
+  {% endfor %}
+</ul>
