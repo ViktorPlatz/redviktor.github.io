@@ -8,11 +8,11 @@ title: Latest posts
 {% if node.layout == "post" %}
   <article>
     <h2>
-      <a href="{{ site.url }}">
-        {{ site.title }}
+      <a href="{{ node.url }}">
+        {{ node.title }}
       </a>
     </h2>
-    <time datetime="{{ site.date | date: "%Y-%m-%d" }}">{{ site.date | date_to_long_string }}</time>
-    {{ site.content }}
+    <time datetime="{{ node.date | date: "%Y-%m-%d" }}">{{ site.date | date_to_long_string }}</time>
+    {{ node.content }}
   </article>
 {% endif %}
