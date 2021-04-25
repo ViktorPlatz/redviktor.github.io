@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Introducing Hyde
+title: Who am i?
 ---
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+Hello, my name is Viktor Platz. This is a personal website which I have made to keep my projects in place and to showcase some of my work which I have created. I have also made a section where I can post things, which I plan on using for blog posts and journals on the projects which I make.
 
-### Built on Poole
+### Who am i? and what do i do?
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Hyde here) includes the following:
+I am a student studying software engineering from Copenhagen, Denmark. After graduating high school, I took a year long sabatical, to enjoy life and acquire some funds to invest with and prepare to start studying at uni.
 
+During my sabbatical I,
 * Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
+* Created an [Investing Guide](/investingguide/) specifically made for people living in denmark.
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
 * Related posts (time-based, because Jekyll) below each post
