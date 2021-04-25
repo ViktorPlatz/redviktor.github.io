@@ -8,7 +8,7 @@ title: Latest posts
 {% if node.layout == "post" %}
   <article>
     <h2>
-      <a href="{{ post.url }}">
+      <a href="{{ "/" | relative_url }}">
         {{ post.title }}
       </a>
     </h2>
