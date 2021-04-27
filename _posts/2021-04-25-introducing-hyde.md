@@ -10,7 +10,7 @@ Hello, my name is Viktor Platz. This is a personal website which I have made to 
 I am a student studying software engineering from Copenhagen, Denmark. After graduating high school, I took a year long sabatical, to enjoy life and acquire some funds to invest with and prepare to start studying at uni.
 
 During my sabbatical I,
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
+
 * Created an [Investing Guide](/investingguide/) specifically made for people living in denmark
 * Started various coding projects
 * Prepared for uni by networking with some uni students and branching out my network
